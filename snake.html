@@ -10,7 +10,7 @@
 
 <body>
     
-    <canvas id="canvas" width="480" height="480" ></canvas>
+    <canvas id="canvas" width="480" height="480" />
 
     <script>
         let canvas = document.getElementById('canvas');
@@ -156,6 +156,7 @@
                 if (direction =='DOWN'){
                     snake[0].y++;
                 }
+
                 if (snake [0].x == food.x
                 && snake[0].y == food.y){
                     lastfood ={
